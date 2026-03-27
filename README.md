@@ -1,6 +1,6 @@
 # Amazon Delivery Time Prediction
 
-[![CI](https://github.com/<your-username>/<your-repo>/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/<your-repo>/actions/workflows/ci.yml)
+[![CI](https://github.com/Roop454/amazon-delivery-time-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/Roop454/amazon-delivery-time-prediction/actions/workflows/ci.yml)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-c96a2f)](https://<your-live-demo-url>)
 
 A production-style machine learning project that predicts parcel delivery ETA using logistics features such as route distance, traffic level, weather, package weight, warehouse load, and vehicle type.
@@ -121,8 +121,6 @@ git push -u origin main
 
 3. Replace placeholders in this README:
 
-- `<your-username>`
-- `<your-repo>`
 - `<your-live-demo-url>`
 
 ## Deploy Live Demo (Render)
