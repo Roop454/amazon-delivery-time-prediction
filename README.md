@@ -1,7 +1,7 @@
 # Amazon Delivery Time Prediction
 
 [![CI](https://github.com/Roop454/amazon-delivery-time-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/Roop454/amazon-delivery-time-prediction/actions/workflows/ci.yml)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-c96a2f)](https://<your-live-demo-url>)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-c96a2f)](https://amazon-delivery-time-prediction-xchv.onrender.com)
 
 A production-style machine learning project that predicts parcel delivery ETA using logistics features such as route distance, traffic level, weather, package weight, warehouse load, and vehicle type.
 
@@ -9,8 +9,8 @@ This repository is designed to be portfolio-ready for resume and GitHub showcase
 
 ## Live Demo
 
-- App URL: `https://<your-live-demo-url>`
-- API docs: `https://<your-live-demo-url>/docs`
+- App URL: `https://amazon-delivery-time-prediction-xchv.onrender.com`
+- API docs: `https://amazon-delivery-time-prediction-xchv.onrender.com/docs`
 
 ## Why this project is credible
 
