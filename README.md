@@ -11,6 +11,7 @@ This repository is designed to be portfolio-ready for resume and GitHub showcase
 
 - App URL: `https://amazon-delivery-time-prediction-xchv.onrender.com`
 - API docs: `https://amazon-delivery-time-prediction-xchv.onrender.com/docs`
+- Note: On Render free tier, first request after inactivity can take around 30-60 seconds.
 
 ## Why this project is credible
 
