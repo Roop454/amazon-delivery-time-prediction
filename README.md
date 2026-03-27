@@ -1,4 +1,6 @@
 # Amazon Delivery Time Prediction
+<img width="1524" height="872" alt="image" src="https://github.com/user-attachments/assets/228d28f0-748d-4093-88a4-244cd2479065" />
+
 
 [![CI](https://github.com/Roop454/amazon-delivery-time-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/Roop454/amazon-delivery-time-prediction/actions/workflows/ci.yml)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-c96a2f)](https://amazon-delivery-time-prediction-xchv.onrender.com)
