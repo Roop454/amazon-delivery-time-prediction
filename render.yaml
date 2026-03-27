@@ -3,6 +3,6 @@ services:
     name: amazon-delivery-time-prediction
     runtime: python
     plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: apt-get update && apt-get install -y build-essential python3-dev && pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     autoDeploy: true
