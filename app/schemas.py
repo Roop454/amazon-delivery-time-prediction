@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from enum import Enum
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field
 
 
 class TrafficBucket(str, Enum):
@@ -37,11 +37,6 @@ class PredictionRequest(BaseModel):
     package_weight_kg: float = Field(..., ge=0.1, le=50)
     warehouse_load_pct: float = Field(..., ge=0, le=100)
     order_timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
-
-    @field_validator("drop_lat")
-    @classmethod
-    def validate_drop_lat(cls, value: float, info: object) -> float:
-        return value
 
 
 class PredictionResponse(BaseModel):
